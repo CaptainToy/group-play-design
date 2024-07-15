@@ -1,2 +1,2 @@
 "# group-play-design" 
-new project
+change the try to index
