@@ -3,64 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Price List for Hugies Pharmacy</title>
-    <style>
-        /* Inline CSS for table styling */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        caption {
-            font-size: 1.5em;
-            margin: 10px 0;
-        }
-        /* Media Queries */
-        @media (max-width: 1200px) {
-            table {
-                font-size: 0.9em;
-            }
-        }
-        @media (max-width: 600px) {
-            table {
-                font-size: 0.8em;
-            }
-        }
-        @media (max-width: 486px) {
-            table {
-                font-size: 0.7em;
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
-            }
-            th, td {
-                padding: 6px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./index.css">
+    <title>BRIJ.NG</title>
+   
 </head>
 <body>
-    <h1>PRICE LIST FOR HUGIES PHARMACY FROM IKR</h1>
 
-    <table>
-        <caption>Delivery Charges</caption>
-        <thead>
-            <tr>
-                <th>Pick up</th>
-                <th>Delivery location</th>
-                <th>Bike price</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>Igbogbo</td><td>Victoria Island</td><td>6500</td></tr>
+    <div class="container">
+        <div class="header">
+            <img src="./Screenshot__111_-removebg-preview (1) (1).png" alt="Totem Pharmacy Logo">
+            <img src="./hugies-logo-small-new.webp" alt="Totem Pharmacy Logo">
+            <h1>Totem Pharmacy Price List</h1>
+        </div>
+        <style>
+            body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.terms {
+    font-size: 14px;
+}
+
+/* Media queries for small devices */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header img {
+        width: 70px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .terms {
+        font-size: 12px;
+    }
+}
+
+/* Media queries for medium devices */
+@media (min-width: 601px) and (max-width: 992px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .header img {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    .terms {
+        font-size: 13px;
+    }
+}
+        </style>
+        
+
+        <h2>Delivery Prices</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pick Up</th>
+                    <th>Delivery Location</th>
+                    <th>Bike Price (₦)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Igbogbo</td><td>Victoria Island</td><td>6500</td></tr>
             <tr><td>Igbogbo</td><td>Ikoyi</td><td>6500</td></tr>
             <tr><td>Igbogbo</td><td>Lekki Phase I</td><td>7500</td></tr>
             <tr><td>Igbogbo</td><td>Ikota</td><td>8900</td></tr>
@@ -104,49 +179,46 @@
             <tr><td>Igbogbo</td><td>Maryland</td><td>4300</td></tr>
             <tr><td>Igbogbo</td><td>Fadeyi</td><td>4800</td></tr>
             <tr><td>Igbogbo</td><td>Ebuta metta</td><td>5700</td></tr>
-        </tbody>
-    </table>
+            </tbody>
+        </table>
 
-    <h2>NOTE:</h2>
-    <p>Flat rate within Ikorodu (#3000)</p>
+        <h2>Terms and Conditions</h2>
+        <div class="terms">
+            <h3>We, Brij.ng as the provider of delivery service and Customer refers Totem Pharmacy</h3>
+            <h3>Service Agreement</h3>
+            <p>By engaging our delivery services, the Customer agrees to be bound by these terms and conditions.</p>
 
-    <h2>Terms and Conditions:</h2>
-    <p>Service Agreement</p>
-    <ul>
-        <li>By engaging our delivery services, the Customer agrees to be bound by these terms and conditions.</li>
-    </ul>
+            <h3>Delivery Services</h3>
+            <ul>
+                <li>We will provide delivery services as agreed upon with the Customer.</li>
+                <li>The customer must ensure that goods are well packed, labelled, stored, and stowed in a manner that is appropriate for carriers to avoid damage and spills.</li>
+            </ul>
 
-    <h3>Delivery Services</h3>
-    <ul>
-        <li>We will provide delivery services as agreed upon with the Customer.</li>
-        <li>The customer must also ensure that goods are well packed, labelled, stored, and stowed in a manner that is appropriate for carriers to avoid damage and splits.</li>
-    </ul>
+            <h3>Delivery Charges</h3>
+            <ul>
+                <li>Delivery charges will be communicated to the Customer and agreed upon before delivery services are rendered.</li>
+                <li>Additional charges may apply for special delivery requests or circumstances.</li>
+                <li>A Google sheet shall be created and shared between both parties where all orders and costs generated would be registered for transparency.</li>
+                <li>We expect the customer to remit payment after invoices have been sent on a monthly or weekly basis, as per the customer's preference.</li>
+            </ul>
 
-    <h3>Delivery Charges</h3>
-    <ul>
-        <li>Delivery charges will be communicated to the Customer and agreed upon before delivery services are rendered.</li>
-        <li>Additional charges may apply for special delivery requests and/or circumstances.</li>
-        <li>A Google sheet shall be created and shared between both parties where all orders and cost generated would be registered for transparency.</li>
-        <li>We shall expect the customer to remit to us after invoice has been sent on a monthly or weekly basis (as the customer would wish).</li>
-        <li>Discounts are provided on multiple orders.</li>
-    </ul>
+            <h3>Delivery Timeframes</h3>
+            <ul>
+                <li>We will make reasonable efforts to deliver within the agreed timeframe.</li>
+                <li>Addresses and delivery times must be adequately communicated for easy business flow.</li>
+                <li>Delays due to unforeseen circumstances such as weather, traffic, or other external factors may occur. We will not be liable for such delays.</li>
+                <li>A change of location attracts extra charges.</li>
+            </ul>
 
-    <h3>Delivery Timeframes</h3>
-    <ul>
-        <li>We will make reasonable efforts to deliver within the agreed timeframe.</li>
-        <li>That addresses and time of delivery are adequately communicated for easy flow of business.</li>
-        <li>Delays due to unforeseen circumstances such as weather, traffic, or other external factors may occur. We will not be liable for such delays.</li>
-        <li>A change of location attracts extra charges.</li>
-        <li>There shall be normal charges on returned goods.</li>
-        <li>Same charges are paid on returned order.</li>
-        <li>Toll fee applies to locations that seem to be boundaries/ have peculiarity (e.g. Apapa).</li>
-    </ul>
+            <h3>Customer Responsibilities</h3>
+            <ul>
+                <li>The Customer must provide accurate and complete delivery information, including recipient details and delivery instructions.</li>
+                <li>The Customer must ensure someone is available to receive the delivery at the specified location and time.</li>
+                <li>For deliveries requiring special conditions, such as ice packs for certain drugs, the customer should notify us. Additional charges will apply.</li>
+                <li>•	Note that these conditions are liable to adjudgments or changes as circumstances may occur</li>
+            </ul>
+        </div>
+    </div>
 
-    <h3>Customer Responsibilities</h3>
-    <ul>
-        <li>The Customer must provide accurate and complete delivery information, including recipient details and delivery instructions.</li>
-        <li>The Customer must ensure someone is available to receive the delivery at the specified location and time.</li>
-        <li>Due to the specialty of delivery, the customer should let us know if we would be providing an ice pack for the delivery of certain drugs and this shall attract extra charges of N1000 per pack.</li>
-    </ul>
 </body>
 </html>
